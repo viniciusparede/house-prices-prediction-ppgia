@@ -1,7 +1,8 @@
 JRIP rules:
 ===========
 
-(TotalBsmtSF >= -0.183938) and (GrLivArea <= -0.49669) and (GarageYrBlt >= 1978) => SalePriceCategorical=House_Price_3 (54.0/25.0)
- => SalePriceCategorical=House_Price_5 (1388.0/1100.0)
+(GarageArea <= 299) and (Id <= 552) and (LotArea <= 7446) => SalePriceCategorical=House_Price_1 (46.0/13.0)
+(LotShape <= 1) and (WoodDeckSF <= 0) and (Fireplaces <= 0) and (LotArea >= 9819) => SalePriceCategorical=House_Price_3 (36.0/15.0)
+ => SalePriceCategorical=House_Price_5 (1360.0/1077.0)
 
-Number of Rules : 2
+Number of Rules : 3
